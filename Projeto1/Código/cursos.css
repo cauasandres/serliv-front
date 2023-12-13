@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+.inicio{
+
+    h1{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: 10%;
+        font-size: 56px;
+        text-shadow: 2px 2px 2px black;
+
+    }    
+    p{
+        border-bottom: 2px solid #ffffff;
+        color: white;
+        background-color: rgb(114, 112, 112);
+        margin-left: 38%;
+        margin-right: 38%;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    background-image: url(../Ferramentas/imagens/bg-3.jpg);
+    padding-bottom: 15%;
+    padding-top: 1%;
+}
+
+section{
+    background-color: white;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    border-bottom: 10px solid white;
+    
+    
+    
+    header{
+        margin-left: 1%;
+        margin-right: 1%;
+        border-top: 10px solid white;
+        background-color: #ccc;
+        
+
+        h1{
+            padding: 1%;
+            margin-top: 0%;
+        }
+        
+        
+    }
+
+    article{
+        margin-left: 1%;
+    }
+
+    footer{
+        margin-left: 1%;
+        background-color: #ccc;
+        margin-right: 90%;
+        text-align: center;
+        padding: 0px;
+        
+        p{
+            border: 7px solid #ccc;
+        }
+        
+        
+    }
+}
+
+footer{
+    text-align: center;
+    margin-top: 1%;
+    background-color: #615e5e;
+    color: white;
+    padding: 5px;
+    margin-bottom: -1%;
+}
+
