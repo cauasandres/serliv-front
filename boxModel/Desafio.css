@@ -1,65 +1,64 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ccc;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .nome{
-    background-color: rgb(154, 166, 231);
-    color: rgb(2, 2, 109);
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgb(152, 152, 241);
+    padding: 5px;
     text-align: center;
-    padding: 10px;
-    padding-bottom: 5px;
+    color: rgb(2, 2, 83);
 }
 
-p{
-    color: #636262;
+.p1{
+    color: #6b6969;
+    text-align: center;
+    margin-top: -14px;
+}
+
+.redes{
+    text-align: right;
+    a:hover{
+        padding: 11px;
+    }
+}
+
+.git{
+    background-color: white;
+    padding: 10px;
+}
+
+.linkedin{
+    background-color: white;
+    padding: 10px;
+}
+
+.youtube{
+    background-color: white;
+    padding: 10px;
 }
 
 .info{
-    color: #636262;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: -20px;
-    width: 50%;
-    text-align: center;
+    background-color: #a7a4a4;
+    padding: 10px;
+    color: rgb(2, 2, 83);
+    border-bottom: 2px solid rgb(2, 2, 104);
 }
 
-.obj{
-    padding-left: 1%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: rgb(2, 2, 110);
-    border-bottom: 3px solid rgb(2, 2, 110);
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #b3afaf;
-    
+.sub{
+    color: #6b6969;
+    font-size: small;
 }
 
-.desc{
-    
-    color: #636262;
-}
-
-p{
-    margin-left: 5%;
-}
-
-
-a:link{
+a{
+    font-weight: bolder;
+    text-decoration: none;
     color: blue;
+    display: inline-block;
 }
 
-a:visited{
-    color: blue;
-}
-
-.area{
-    color: #353434;
-}
-
-ul li{
-    margin-left: 4%;
+ul{
+    margin-left: -25px;
 }
