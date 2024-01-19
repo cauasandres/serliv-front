@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url(../imagens/bg.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 65%;
+    margin: auto;
+   } 
+
+h1{
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.sub{
+    color: #222222;
+    font-size: 16px;
+}
+
+
+   a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.redesp{
+    text-align: right;
+    a:hover{
+        padding: 12px;
+    }
+}
+
+.redes2{
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.img-html{
+    float: left;
+    width: 200px;
+    margin-left: -200px;
+}
+
+.img-css{
+    float: right;
+    width: 230px;
+    margin-right: -200px;
+    
+}
+
+.logo-serliv{
+    float: left;
+    margin-left: -200px;
+    width: 200px;
+}
+
+.gif-walk{
+    width: 200px;
+    float: right;
+    margin-left: -200px;
+    
+}
