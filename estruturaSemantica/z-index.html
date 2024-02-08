@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+
+        <style>
+           
+           div{
+            border: 3px solid black;
+            padding: 12px;
+            margin-bottom: 12px;
+            background-color: rgba(0, 0, 0, .2);
+            font-size: 18px;
+            font-family: sans-serif;
+            width: 60%;
+           }
+            
+           .div2.group1{
+            background-color: white;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+           }
+
+           .div2.group2{
+            background-color: white;
+            position: absolute;
+            top: 100px;
+            left: 0;
+            z-index: 2;
+           }
+
+           
+        </style>
+    </head>
+    <body>
+        
+        <div class="div1 group1">
+            <p>div1 grupo1</p>
+            <div class="div2 group1">
+                <p>div2 grupo1</p>
+                <div class="div3 group1"> <p> div3 grupo1 </p> </div>
+                <div class="div4 group1"> <p> div4 grupo1 </p> </div>
+            </div>
+        </div>
+
+        <br>
+
+
+        <div class="div1 group2">
+            <p>div1 grupo2</p>
+            <div class="div2 group2">
+                <p>div2 grupo2</p>
+                <div class="div3 group2"> <p> div3 grupo2 </p> </div>
+                <div class="div4 group2"> <p> div4 grupo2 </p> </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
