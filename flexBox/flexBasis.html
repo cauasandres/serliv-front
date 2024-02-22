@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+
+        <style> 
+            .flexbox {
+                height: 300px;
+                border: 1px solid red;
+                display: flex;
+                margin-bottom: 16px;
+            }
+
+            .flexbox div {
+                border: 2px solid orange;
+                width: 300px;
+                margin: 15px;
+            }
+
+            .flex-container1 {
+                justify-content: flex-end;
+                align-items: flex-start;
+                flex-direction: row;
+                height: 400px;
+            }
+
+            .flex-container1 div {
+                background-color: yellow;
+                width: 100px;
+                height: 30px;
+            }
+
+            .flex-container1 .div2{
+                flex-basis: 200px;
+            }
+
+            .flex-container2 {
+                flex-direction: column;
+            }
+            
+            .flex-container2 div {
+                background-color: yellow;
+                width: 100px;
+                height: 30px;
+            }
+
+            .flex-container2 .div2{
+                flex-basis: 100px;
+            }
+
+            .flex-container3 {
+                justify-content: center;
+                align-items: center;
+            }
+
+            .flex-container3 div {
+                background-color: yellow;
+                flex-basis: 50px;
+                height: 30px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="flexbox flex-container1">
+            <div class="div1"> 1 </div>
+            <div class="div2"> 2 </div>
+            <div class="div3"> 3 </div>
+            <div class="div4"> 4 </div>
+        </div>
+
+        <div class="flexbox flex-container2">
+            <div class="div1"> 1 </div>
+            <div class="div2"> 2 </div>
+            <div class="div3"> 3 </div>
+            <div class="div4"> 4 </div>
+        </div>
+
+        <div class="flexbox flex-container3">
+            <div class="div1"> 1 </div>
+            <div class="div2"> 2 </div>
+            <div class="div3"> 3 </div>
+            <div class="div4"> 4 </div>
+        </div>
+    </body>
+</html>
